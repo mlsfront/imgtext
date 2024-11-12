@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maratona: Aprenda a Pregar - Aulas</title>
+    <style>
+        body {
+            padding: 25px;
+        }
+        article h2 {
+            color: blue;
+            opacity: 0.7;
+        }
+        /*btnTopo*/
+        .btnTopo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 25px;
+            height: 25px;
+            background-color: #000;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        .btnTopo::after {
+            content: "^";
+            font-size: 14px;
+            font-weight: bold;
+            color: aliceblue;
+            transition: margin-top 250ms;
+        }
+        .btnTopo:hover::after {
+            margin-top:-8px;
+        }
+        /*fim btnTopo*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MARATONA: APRENDA A PREGAR</h1>
+
+        <details id="myDetails">
+            <summary>Índice</summary>
+            <p><a class="nav-link" href="#o-que-e-e-o-que-nao-e-um-sermao-biblico">AULA 1: O QUE É E O QUE NÃO É UM SERMÃO BÍBLICO</a></p>
+            <p><a class="nav-link" href="#principios-para-o-estudo-biblico">AULA 2: PRINCÍPIOS PARA O ESTUDO BÍBLICO</a></p>
+            <p><a class="nav-link" href="#principios-da-estruturacao-do-sermao">AULA 3: PRINCÍPIOS DA ESTRUTURAÇÃO DO SERMÃO</a></p>
+            <p><a class="nav-link" href="#principios-para-uma-entrega-eficaz">AULA 4: PRINCÍPIOS PARA UMA ENTREGA EFICAZ</a></p>
+            <p><a class="nav-link" href="#resumo">RESUMO</a></p>
+            <p><a class="nav-link" href="#pregacao-expositiva">Pregação Expositiva: Marcos 4 – A Parábola do Semeador</a></p>
+            <p><a class="nav-link" href="#pregacao-temática">Pregação Temática: Marcos 4 – A Parábola do Semeador</a></p>
+        </details>    
+    </header>
+
+    <section>
+        <h2 id="o-que-e-e-o-que-nao-e-um-sermao-biblico">AULA 1: O QUE É E O QUE NÃO É UM SERMÃO BÍBLICO</h2>
+        
+        <h3>1. DEFININDO O SERMÃO BÍBLICO</h3>
+        <p>A definição de um sermão bíblico depende da compreensão de onde está a autoridade.</p>
+        
+        <ul>
+            <li>O sermão é diretamente deduzido da Bíblia</li>
+            <li>O sermão é indiretamente deduzido da Bíblia</li>
+            <li>O sermão é casualmente deduzido da Bíblia</li>
+        </ul>
+        
+        <p><strong>Qual destas formas melhor expressa a autoridade bíblica?</strong></p>
+        <p>Portanto, um sermão bíblico é aquele em que a Bíblia é a base do sermão, onde a mensagem comunicada é diretamente deduzida do estudo do texto, da exposição do texto e da sua aplicação.</p>
+
+        <h3>2. MODELOS DE SERMÃO BÍBLICO</h3>
+        <p>- A questão da pregação expositiva</p>
+        <p>- Dois modelos básicos de sermão bíblico:</p>
+        <ul>
+            <li>Sermão Bíblico em um Texto (Sermão Expositivo)</li>
+            <li>Sermão Bíblico em um Tema (Sermão Temático)</li>
+        </ul>
+        <p>- Outros Modelos: o sermão narrativo, sermão biográfico, sermão teológico.</p>
+
+        <h3>Exercício:</h3>
+        <p>Analise os seguintes sermões e diga se eles podem ou não ser chamados de Sermão Bíblico.</p>
+
+        <h4>Esboço 1:</h4>
+        <p><strong>Tema:</strong> Os Valores do Devocional em Família</p>
+        <ul>
+            <li>É importante para unir a família</li>
+            <li>É importante para instruir a família</li>
+            <li>É importante para proteger a família</li>
+        </ul>
+        <p><strong>Comentário:</strong></p>
+        <p>- Não há menção de texto bíblico.</p>
+        <p>- As ideias não são diretamente deduzidas da Bíblia.</p>
+        <p>- Este sermão não é bíblico.</p>
+
+        <h4>Esboço 2:</h4>
+        <p><strong>Tema:</strong> Princípios Para uma Família Saudável</p>
+        <p><strong>Texto:</strong> Mateus 7:24-27</p>
+        <ul>
+            <li>Esteja atento aos perigos ao redor</li>
+            <li>Dê atenção especial aos fundamentos</li>
+            <li>Prepare-se para a variedade de desafios</li>
+        </ul>
+        <p><strong>Comentário:</strong></p>
+        <p>- Esses pontos não correspondem ao que o texto está realmente falando.</p>
+        <p>- Este sermão não pode ser chamado de bíblico.</p>
+
+        <h4>Esboço 3:</h4>
+        <p><strong>Tema:</strong> Como fazer Discípulos</p>
+        <p><strong>Texto:</strong> Mateus 28:18-20</p>
+        <ul>
+            <li>Obedecendo (18, 19a)</li>
+            <li>Batizando (19)</li>
+            <li>Ensinando (20a)</li>
+            <li>Confiando (20b)</li>
+        </ul>
+        <p><strong>Comentário:</strong> Este sermão é bíblico.</p>
+    </section>
+
+    <section>
+        <h2 id="principios-para-o-estudo-biblico">AULA 2: PRINCÍPIOS PARA O ESTUDO BÍBLICO</h2>
+        <p>Todo sermão deve partir do texto bíblico.</p>
+        <p>Erro comum: preocupar-se com a estrutura do sermão antes de estudar o texto.</p>
+        <p>A pergunta mais importante que um pregador deve fazer é: <strong>O QUE A BÍBLIA DIZ?</strong></p>
+        <p>Após identificar o que a Bíblia diz, o próximo passo é: <strong>Como vou transmitir isso para as pessoas?</strong></p>
+
+        <h3>Princípios para um Estudo Bíblico visando o Sermão:</h3>
+        <ul>
+            <li><strong>1. Aprenda a OBSERVAR bem o texto bíblico.</strong>
+                <ul>
+                    <li>Notar todos os elementos passíveis de serem estudados em um texto (Palavras, Contexto, Quem escreveu, Para quem escreveu).</li>
+                    <li>Ler o texto em várias versões.</li>
+                </ul>
+            </li>
+            <li><strong>2. Entenda as REGRAS BÁSICAS da Hermenêutica.</strong>
+                <ul>
+                    <li>Hermenêutica — a arte e ciência da interpretação bíblica.</li>
+                    <li>A interpretação deve ser histórico-gramatical-literária.</li>
+                </ul>
+            </li>
+            <li><strong>3. Interprete o texto dentro do seu CONTEXTO.</strong>
+                <ul>
+                    <li>Contexto histórico</li>
+                    <li>Contexto gramatical</li>
+                    <li>Contexto imediato</li>
+                </ul>
+            </li>
+            <li><strong>4. Identifique a IDEIA PRINCIPAL e Secundárias.</strong></li>
+            <li><strong>5. CORRELACIONE o que estudou com os dias atuais.</strong></li>
+            <li><strong>6. Faça APLICAÇÕES com base no que você estudou.</strong></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 id="principios-da-estruturacao-do-sermao">AULA 3: PRINCÍPIOS DA ESTRUTURAÇÃO DO SERMÃO</h2>
+        <p>O sermão é um meio de comunicação — a pregação é um discurso público. A pregação deve ser lógica e bem organizada.</p>
+
+        <h3>5 Princípios para uma boa Estruturação do Sermão:</h3>
+        <ul>
+            <li><strong>1. Entenda as partes do sermão:</strong>
+                <ul>
+                    <li>Introdução</li>
+                    <li>Corpo</li>
+                    <li>Conclusão</li>
+                </ul>
+            </li>
+            <li><strong>2. Entenda as bases do sermão:</strong>
+                <ul>
+                    <li>O seu sermão será baseado no estudo do texto.</li>
+                    <li>O sermão direciona as pessoas ao que você estudou.</li>
+                </ul>
+            </li>
+            <li><strong>3. Comece pelo corpo do sermão:</strong>
+                <ul>
+                    <li>Estabeleça a ideia central</li>
+                    <li>Estabeleça como você apresentará essa ideia.</li>
+                    <li>Estabeleça os pontos do sermão.</li>
+                </ul>
+            </li>
+            <li><strong>4. Prepare a Introdução:</strong>
+                <ul>
+                    <li>A introdução deve chamar a atenção do ouvinte e direcioná-lo ao assunto do sermão.</li>
+                </ul>
+            </li>
+            <li><strong>5. Prepare a Conclusão:</strong>
+                <ul>
+                    <li>A conclusão pode resumir o ensino do sermão e finalizar com uma grande lição final.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 id="principios-para-uma-entrega-eficaz">AULA 4: PRINCÍPIOS PARA UMA ENTREGA EFICAZ</h2>
+        <p>A oratória é a arte de falar em público. A eficácia do sermão depende de uma boa entrega.</p>
+        <p>Estudar oratória é essencial para não prejudicar o anúncio fiel da Palavra de Deus.</p>
+
+        <h3>Princípios para uma Entrega Eficaz do Sermão:</h3>
+        <ul>
+            <li><strong>1. Reserve tempo para trabalhar a entrega do sermão.</strong></li>
+            <li><strong>2. Mantenha-se natural em sua entrega:</strong>
+                <ul>
+                    <li>A forma como você prega deve ser consistente com sua personalidade.</li>
+                    <li>A forma de pregar não pode ser forçada, mas sim apropriada à mensagem.</li>
+                    <li>A pregação deve ser confortável para você e para a audiência.</li>
+                </ul>
+            </li>
+            <li><strong>3. Desenvolva o seu estilo:</strong>
+                <ul>
+                    <li>Postura no púlpito: você prefere se movimentar ou ficar parado?</li>
+                    <li>Você adota o estilo professor ou palestrante?</li>
+                    <li>Entender o seu estilo é essencial para torná-lo mais eficaz, removendo qualquer ruído.</li>
+                </ul>
+            </li>
+            <li><strong>4. Use sua voz corretamente:</strong>
+                <ul>
+                    <li>Utilize um tom de voz equilibrado.</li>
+                    <li>Varie o ritmo, dependendo do conteúdo do sermão.</li>
+                    <li>Controle o volume da sua voz. Evite gritar, e saiba quando usar um volume mais baixo.</li>
+                    <li>Articule bem a sua voz para garantir que todos compreendam o que está sendo dito.</li>
+                </ul>
+            </li>
+            <li><strong>5. Use a linguagem corporal corretamente:</strong>
+                <ul>
+                    <li>Vista-se adequadamente para a ocasião.</li>
+                    <li>Adapte os gestos à plateia: gestos longos para grandes plateias e gestos mais curtos para pequenas plateias.</li>
+                    <li>Mantenha o contato visual com a audiência para criar conexão.</li>
+                    <li>Expresse ânimo no seu rosto, não necessariamente alegria, mas envolvimento com a mensagem.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 id="resumo">Resumo: Maratona Aprenda a Pregar</h2>
+        <article>
+            <h2>Conteúdo do Resumo</h2>
+        
+            <p>Este conteúdo aborda princípios fundamentais para a pregação bíblica, destacando desde a definição de um sermão bíblico até a entrega eficaz de uma mensagem. A proposta é proporcionar uma compreensão clara sobre como elaborar e comunicar sermões que estejam em sintonia com as Escrituras e com as necessidades da audiência.</p>
+        
+            <h3>1. Definindo o Sermão Bíblico</h3>
+            <p>O sermão bíblico deve ser fundamentado diretamente na Bíblia. A mensagem pregada precisa ser resultado do estudo cuidadoso do texto bíblico, e a autoridade das Escrituras deve ser evidente no conteúdo. Os sermões podem ser expositivos, retirando suas ideias diretamente do texto, ou temáticos, onde um tema central é explorado à luz de diversos textos bíblicos.</p>
+        
+            <h3>2. Modelos de Sermão Bíblico</h3>
+            <p>Existem dois modelos principais de sermão: o <strong>sermão expositivo</strong>, que explora um único texto bíblico de forma detalhada, e o <strong>sermão temático</strong>, que trata de um tema baseado em vários textos. Além disso, há modelos como o sermão narrativo, biográfico e teológico.</p>
+        
+            <h3>3. Princípios para o Estudo Bíblico</h3>
+            <p>Antes de estruturar um sermão, é fundamental que o pregador estude o texto bíblico, perguntando: <strong>O que a Bíblia diz?</strong> Esse estudo deve ser conduzido com atenção aos contextos históricos, gramaticais e imediatos do texto. O pregador deve observar detalhes como palavras-chave, contexto de escrita, e os princípios hermenêuticos que guiam a interpretação bíblica.</p>
+        
+            <h3>4. Estruturação do Sermão</h3>
+            <p>A estrutura de um sermão deve ser clara e lógica. A introdução deve captar a atenção da audiência, o corpo deve desenvolver os pontos principais de forma organizada, e a conclusão deve resumir e aplicar os ensinamentos do sermão. A base de todo sermão é o texto estudado, e a comunicação deve ser clara e objetiva, utilizando um plano de ação ou proposição homilética.</p>
+        
+            <h3>5. Entrega Eficaz do Sermão</h3>
+            <p>A entrega do sermão é tão importante quanto o seu conteúdo. Para isso, o pregador deve trabalhar a sua oratória, garantindo que sua voz, postura e gestos estejam em sintonia com a mensagem. A entrega deve ser natural e confortável, respeitando a personalidade do pregador e as necessidades da audiência. O pregador deve manter o contato visual, articular bem suas palavras e usar a linguagem corporal de forma apropriada.</p>
+        
+            <h3>Conclusão</h3>
+            <p>Os sermões são a maneira pela qual a mensagem de Deus é compartilhada com o povo, e devem ser preparados com dedicação, equilíbrio entre estudo e aplicação, e uma entrega eficaz. Ao seguir esses princípios, o pregador pode garantir que sua mensagem seja clara, relevante e fiel à Palavra de Deus.</p>
+        </article>        
+    </section>
+
+    <section>
+        <h2 id="pregacao-expositiva">Pregação Expositiva: Marcos 4 – A Parábola do Semeador</h2>
+        <article>
+            <h2>Exposição de Marcos 4: A Parábola do Semeador</h2>
+        
+            <p>Em Marcos 4, Jesus usa a parábola do semeador para ensinar importantes lições sobre como a Palavra de Deus é recebida por diferentes pessoas. Este é um dos textos fundamentais para entender a resposta humana à mensagem divina. Através dessa parábola, Jesus revela o mistério do Reino de Deus e os diferentes tipos de solo que representam as condições do coração humano diante do evangelho.</p>
+        
+            <h3>1. Contexto da Parábola</h3>
+            <p>Jesus estava à beira do mar, e uma grande multidão se reuniu para ouvi-lo. Devido ao número de pessoas, Ele subiu em um barco e começou a ensinar usando parábolas, uma forma de ensino que mistura verdades espirituais com imagens simples do cotidiano. A parábola do semeador ilustra como a semente (a Palavra de Deus) é semeada, mas nem todos respondem da mesma forma.</p>
+        
+            <h3>2. Explicação da Parábola</h3>
+            <p>Na parábola, o semeador lança sementes em diferentes tipos de solo, representando diferentes condições de coração. Cada tipo de solo recebe a semente de maneira distinta:</p>
+            
+            <ul>
+                <li><strong>Beira do caminho:</strong> A semente que cai à beira do caminho é imediatamente roubada por Satanás, simbolizando aqueles cujos corações estão endurecidos e não entendem a mensagem da Palavra (v. 15).</li>
+                <li><strong>Solo pedregoso:</strong> A semente que cai em solo pedregoso representa aqueles que recebem a Palavra com alegria, mas não têm raízes profundas. Quando enfrentam dificuldades ou perseguições, abandonam a fé (v. 16-17).</li>
+                <li><strong>Entre espinhos:</strong> A semente que cai entre espinhos simboliza os que ouvem a Palavra, mas os cuidados do mundo e as preocupações materiais sufocam o crescimento espiritual, tornando-os infrutíferos (v. 18-19).</li>
+                <li><strong>Boa terra:</strong> A semente que cai em boa terra representa aqueles que ouvem e recebem a Palavra, permitindo que ela produza frutos na vida deles, variando em quantidade, mas sempre frutificando (v. 20).</li>
+            </ul>
+        
+            <h3>3. Aplicação Prática</h3>
+            <p>Ao estudar esta parábola, vemos que a resposta à Palavra de Deus depende do estado do nosso coração. Jesus nos desafia a refletir sobre qual tipo de solo estamos representando em nossa vida. Estamos permitindo que a Palavra de Deus tenha raízes profundas em nosso coração, ou estamos permitindo que as distrações e dificuldades da vida a tirem de nós? A parábola também nos chama a não desanimar diante dos desafios, pois a boa terra sempre trará fruto, apesar das dificuldades.</p>
+        
+            <h3>4. Conclusão</h3>
+            <p>A parábola do semeador é um convite para examinarmos o estado do nosso coração e a receptividade que damos à Palavra de Deus. Devemos nos esforçar para ser solo fértil, onde a Palavra possa germinar, crescer e frutificar, transformando nossas vidas. Que possamos ser ouvidos atentos e obedientes, produzindo frutos para o Reino de Deus.</p>
+        </article>        
+    </section>
+
+    <section>
+        <h2 id="pregacao-temática">Pregação Temática: Marcos 4 – A Parábola do Semeador</h2>
+        <article>
+            <h2>O Impacto da Palavra de Deus na Vida Humana – Marcos 4:1-20</h2>
+        
+            <p>Em Marcos 4, Jesus apresenta uma parábola que não só fala sobre a natureza da pregação, mas também sobre como a Palavra de Deus pode impactar vidas de maneiras diferentes. A parábola do semeador, com suas quatro respostas distintas à semente (a Palavra), é uma excelente base para entender a maneira como cada ser humano reage ao evangelho. O tema central da parábola é a receptividade da Palavra e os frutos que ela gera.</p>
+        
+            <h3>1. Receptividade da Palavra: Os Quatro Tipos de Solo</h3>
+            <p>Cada tipo de solo na parábola simboliza uma forma de recepção da Palavra de Deus, que podemos ver no comportamento humano em relação à fé:</p>
+            
+            <ul>
+                <li><strong>O Solo Endurecido (Beira do Caminho):</strong> Alguns corações estão endurecidos pelo pecado, pela dúvida, ou pela falta de interesse. Quando a Palavra é semeada, ela não encontra lugar para crescer, e Satanás a rouba rapidamente.</li>
+                <li><strong>O Solo Pedregoso:</strong> Em outros, a Palavra pode ser recebida com entusiasmo, mas não há profundidade. Quando as dificuldades e perseguições surgem, a pessoa desiste da fé.</li>
+                <li><strong>O Solo Espinhoso:</strong> Aqueles que são absorvidos pelas preocupações do mundo, como a busca desenfreada por riquezas, acabam sufocando a Palavra, que não consegue produzir frutos.</li>
+                <li><strong>O Solo Fértil (Boa Terra):</strong> Por fim, há aqueles que recebem a Palavra com coração sincero e perseverante, permitindo que ela cresça e traga frutos duradouros, variando em quantidade, mas sempre frutificando.</li>
+            </ul>
+        
+            <h3>2. O Efeito Transformador da Palavra de Deus</h3>
+            <p>Quando a Palavra de Deus encontra solo fértil, ela transforma vidas. O tema desta parábola é a transformação interior que ocorre quando as pessoas recebem e aplicam a Palavra em suas vidas. A Bíblia não é apenas um livro de ensinamentos, mas uma ferramenta poderosa que traz frutos visíveis na vida de quem a obedece.</p>
+        
+            <h3>3. Desafios e Oportunidades</h3>
+            <p>Embora a Palavra de Deus seja semeada em todos os corações, nem todos a acolhem da mesma forma. A parábola nos desafia a refletir sobre qual solo estamos representando. Estamos permitindo que os espinhos da vida ou as pedras do nosso coração nos impeçam de crescer? Ou estamos buscando uma vida de fruto, de crescimento espiritual genuíno?</p>
+        
+            <h3>4. Conclusão</h3>
+            <p>Essa parábola nos chama a um compromisso pessoal com a Palavra de Deus. Que possamos ser como o solo fértil que recebe a semente com alegria e permite que ela frutifique em nossa vida. O impacto da Palavra em nossa vida depende de nossa disposição em permitir que ela nos transforme e nos guie a produzir frutos para o Reino de Deus.</p>
+        </article>        
+    </section>
+
+    <footer>
+        <a href="#" class="btnTopo"></a>
+    </footer>
+</body>
+</html>
